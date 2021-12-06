@@ -135,7 +135,7 @@ while (last->next != NULL)
 last = last->next;
 
 first->next = last->next;
-irst->prev = last;
+first->prev = last;
 last->next = first;
 second->prev = NULL;
 *h = second;
