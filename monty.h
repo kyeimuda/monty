@@ -42,6 +42,7 @@ int *mode;
 unsigned int line_number;
 stack_t **head;
 stack_t **tail;
+}
 cmd_t;
 
 /**
