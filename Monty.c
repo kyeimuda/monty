@@ -35,7 +35,7 @@ while ((read = getline(&line, &len, fd)) != -1)
 eval(line, &head, &tail, &mode, line_number);
 line_number++;
 }
-close(fd);
+fclose(fd);
 free(line);
 free_list(&head);
 return (EXIT_SUCCESS);
