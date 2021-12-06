@@ -42,8 +42,7 @@ int *mode;
 unsigned int line_number;
 stack_t **head;
 stack_t **tail;
-}
-cmd_t;
+} cmd_t;
 
 /**
  * struct instruction_s - opcoode and its function
